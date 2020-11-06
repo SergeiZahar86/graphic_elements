@@ -1,0 +1,13 @@
+﻿<Window x:Class="graphic_elements.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:graphic_elements"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="490" Width="700">
+    <Grid  Name="Grid1" MouseDown="Grid1_MouseDown" >
+        <Image Name="Image1" Source="pex.jpg" />
+        <Image x:Name="_icon" Width="16" Height="16" />
+    </Grid>
+</Window>
